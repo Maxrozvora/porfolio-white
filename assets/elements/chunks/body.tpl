@@ -35,48 +35,24 @@ description:
             </div>
         </aside>
         <div id="colorlib-main">
-            <section id="colorlib-hero" class="js-fullheight" data-section="home">
-                <div class="flexslider js-fullheight">
-                    <ul class="slides">
-                        <li style="background-image: url(assets/templates/images/img_bg_1.jpg);">
-                            <div class="overlay"></div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                                        <div class="slider-text-inner js-fullheight">
-                                            <div class="desc">
-                                                <h1>Hi! <br>I'm Jackson</h1>
-                                                <h2>100% html5 bootstrap templates Made by <a
-                                                            href="https://colorlib.com/"
-                                                            target="_blank">colorlib.com</a></h2>
-                                                <p><a class="btn btn-primary btn-learn">Download CV <i
-                                                                class="icon-download4"></i></a></p>
-                                            </div>
-                                        </div>
+            <section data-section="home">
+                <div class="home" style="background-image: url(assets/templates/images/img_bg_1.jpg);">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 slider-text">
+                                <div class="slider-text-inner">
+                                    <div class="desc">
+                                        <h1>Hi! <br>I'm Max</h1>
+                                        <h2>Front End Developer</h2>
+                                        <p><a class="btn btn-primary btn-learn">Download CV <i
+                                                        class="icon-download4"></i></a></p>
+                                        <p><a class="btn btn-primary btn-learn">View protfolio <i
+                                                        class="icon-download4"></i></a></p>
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li style="background-image: url(assets/templates/images/img_bg_2.jpg);">
-                            <div class="overlay"></div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                                        <div class="slider-text-inner">
-                                            <div class="desc">
-                                                <h1>I am <br>a Designer</h1>
-                                                <h2>100% html5 bootstrap templates Made by <a
-                                                            href="https://colorlib.com/"
-                                                            target="_blank">colorlib.com</a></h2>
-                                                <p><a class="btn btn-primary btn-learn">View Portfolio <i
-                                                                class="icon-briefcase3"></i></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="colorlib-about" data-section="about">
@@ -88,24 +64,12 @@ description:
                                     <div class="about-desc">
                                         <span class="heading-meta">About Us</span>
                                         <h2 class="colorlib-heading">Who Am I?</h2>
-                                        <p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy
-                                            warned the Little Blind Text, that where it came from it would have been
-                                            rewritten a thousand times and everything that was left from its origin
-                                            would be the word "and" and the Little Blind Text should turn around and
-                                            return to its own, safe country.</p>
-                                        <p>Even the all-powerful Pointing has no control about the blind texts it is an
-                                            almost unorthographic life One day however a small line of blind text by the
-                                            name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                        <p><strong>Hi I'm Max Rozvora.</strong> I am from beautiful city Vinnytsia. I have a good knowledge of html, css, js and interested in PWA, new technologies, responsive and adaptive design. </p>
+                                        <p>You can look at my portfolio above and contact me if you have any questions.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="services color-1">
-                                        <span class="icon2"><i class="icon-bulb"></i></span>
-                                        <h3>Graphic Design</h3>
-                                    </div>
-                                </div>
                                 <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
                                     <div class="services color-2">
                                         <span class="icon2"><i class="icon-globe-outline"></i></span>
@@ -122,6 +86,12 @@ description:
                                     <div class="services color-4">
                                         <span class="icon2"><i class="icon-phone3"></i></span>
                                         <h3>Application</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="services color-1">
+                                        <span class="icon2"><i class="icon-bulb"></i></span>
+                                        <h3>New Ideas</h3>
                                     </div>
                                 </div>
                             </div>
