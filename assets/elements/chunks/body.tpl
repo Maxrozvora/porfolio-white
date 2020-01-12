@@ -7,9 +7,9 @@ description:
            aria-expanded="false" aria-controls="navbar"><i></i></a>
         <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
             <div class="text-center">
-                <div class="author-img" style="background-image: url(images/about.jpg);"></div>
-                <h1 id="colorlib-logo"><a href="index-2.html">Jackson Ford</a></h1>
-                <span class="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
+                <div class="author-img" style="background-image: url(assets/templates/images/about.jpg);"></div>
+                <h1 id="colorlib-logo"><a href="#">Max Rozvora</a></h1>
+                <span class="position"><a href="#">Front End Developer</a></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" class="navbar">
                 <div id="navbar" class="collapse">
@@ -21,22 +21,11 @@ description:
                         <li><a href="#" data-nav-section="education">Education</a></li>
                         <li><a href="#" data-nav-section="experience">Experience</a></li>
                         <li><a href="#" data-nav-section="work">Work</a></li>
-                        <li><a href="#" data-nav-section="blog">Blog</a></li>
                         <li><a href="#" data-nav-section="contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="colorlib-footer">
-                <p>
-                    <small>&copy;
-                        Copyright &copy;<script type="83b67a7af412b088e618a447-text/javascript">
-                            document.write(new Date().getFullYear());
-                        </script>
-                        All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
-                        by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
-                        </span> <span>Demo Images: <a href="https://unsplash.com/"
-                                                      target="_blank">Unsplash.com</a></span></small>
-                </p>
                 <ul>
                     <li><a href="#"><i class="icon-facebook2"></i></a></li>
                     <li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -49,7 +38,7 @@ description:
             <section id="colorlib-hero" class="js-fullheight" data-section="home">
                 <div class="flexslider js-fullheight">
                     <ul class="slides">
-                        <li style="background-image: url(images/img_bg_1.jpg);">
+                        <li style="background-image: url(assets/templates/images/img_bg_1.jpg);">
                             <div class="overlay"></div>
                             <div class="container-fluid">
                                 <div class="row">
@@ -68,7 +57,7 @@ description:
                                 </div>
                             </div>
                         </li>
-                        <li style="background-image: url(images/img_bg_2.jpg);">
+                        <li style="background-image: url(assets/templates/images/img_bg_2.jpg);">
                             <div class="overlay"></div>
                             <div class="container-fluid">
                                 <div class="row">
@@ -227,7 +216,7 @@ description:
                     </div>
                 </div>
             </section>
-            <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);"
+            <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(assets/templates/images/cover_bg_1.jpg);"
                  data-stellar-background-ratio="0.5">
                 <div class="overlay"></div>
                 <div class="colorlib-narrow-content">
@@ -578,7 +567,7 @@ description:
                     </div>
                     <div class="row">
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="project" style="background-image: url(images/img-1.jpg);">
+                            <div class="project" style="background-image: url(assets/templates/images/img-1.jpg);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="work.html">Work 01</a></h3>
@@ -593,7 +582,7 @@ description:
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div class="project" style="background-image: url(images/img-2.jpg);">
+                            <div class="project" style="background-image: url(assets/templates/images/img-2.jpg);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="work.html">Work 02</a></h3>
@@ -608,7 +597,7 @@ description:
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-                            <div class="project" style="background-image: url(images/img-3.jpg);">
+                            <div class="project" style="background-image: url(assets/templates/images/img-3.jpg);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="work.html">Work 03</a></h3>
@@ -623,7 +612,7 @@ description:
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-                            <div class="project" style="background-image: url(images/img-4.jpg);">
+                            <div class="project" style="background-image: url(assets/templates/images/img-4.jpg);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="work.html">Work 04</a></h3>
@@ -638,7 +627,7 @@ description:
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="project" style="background-image: url(images/img-5.jpg);">
+                            <div class="project" style="background-image: url(assets/templates/images/img-5.jpg);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="work.html">Work 05</a></h3>
@@ -653,7 +642,7 @@ description:
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div class="project" style="background-image: url(images/img-6.jpg);">
+                            <div class="project" style="background-image: url(assets/templates/images/img-6.jpg);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="work.html">Work 06</a></h3>
@@ -688,7 +677,7 @@ description:
                     <div class="row">
                         <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                             <div class="blog-entry">
-                                <a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive"
+                                <a href="blog.html" class="blog-img"><img src="assets/templates/images/blog-1.jpg" class="img-responsive"
                                                                           alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                 <div class="desc">
                                     <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
@@ -701,7 +690,7 @@ description:
                         </div>
                         <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
                             <div class="blog-entry">
-                                <a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive"
+                                <a href="blog.html" class="blog-img"><img src="assets/templates/images/blog-2.jpg" class="img-responsive"
                                                                           alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                 <div class="desc">
                                     <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
@@ -714,7 +703,7 @@ description:
                         </div>
                         <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                             <div class="blog-entry">
-                                <a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive"
+                                <a href="blog.html" class="blog-img"><img src="assets/templates/images/blog-3.jpg" class="img-responsive"
                                                                           alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                 <div class="desc">
                                     <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i

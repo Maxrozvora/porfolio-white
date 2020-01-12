@@ -21,23 +21,22 @@ description:sample header scripts
 <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="/assets/templates/css/animate.css">
 
-<link rel="stylesheet" href="css/icomoon.css">
+<link rel="stylesheet" href="/assets/templates/css/icomoon.css">
 
-<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="/assets/templates/css/bootstrap.css">
 
-<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="/assets/templates/css/flexslider.css">
 
-<link rel="stylesheet" href="fonts/flaticon/font/flaticon.html">
 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/assets/templates/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/assets/templates/css/owl.theme.default.min.css">
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/assets/templates/css/style.css">
 
-<script src="js/modernizr-2.6.2.min.js" type="83b67a7af412b088e618a447-text/javascript"></script>
+<script src="/assets/templates/js/modernizr-2.6.2.min.js"></script>
 
 <!--[if lt IE 9]>
-<script src="js/respond.min.js"></script>
+<script src="/assets/templates/js/respond.min.js"></script>
 <![endif]-->
