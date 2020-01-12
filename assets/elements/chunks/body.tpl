@@ -533,64 +533,6 @@ description:
                     </div>
                 </div>
             </section>
-            <section class="colorlib-blog" data-section="blog">
-                <div class="colorlib-narrow-content">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                             data-animate-effect="fadeInLeft">
-                            <span class="heading-meta">Read</span>
-                            <h2 class="colorlib-heading">Recent Blog</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="blog-entry">
-                                <a href="blog.html" class="blog-img"><img src="assets/templates/images/blog-1.jpg" class="img-responsive"
-                                                                          alt="HTML5 Bootstrap Template by colorlib.com"></a>
-                                <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
-                                                    class="icon-bubble3"></i> 4</small></span>
-                                    <h3><a href="blog.html">Renovating National Gallery</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                                        large language ocean.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                            <div class="blog-entry">
-                                <a href="blog.html" class="blog-img"><img src="assets/templates/images/blog-2.jpg" class="img-responsive"
-                                                                          alt="HTML5 Bootstrap Template by colorlib.com"></a>
-                                <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
-                                                    class="icon-bubble3"></i> 4</small></span>
-                                    <h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                                        large language ocean.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="blog-entry">
-                                <a href="blog.html" class="blog-img"><img src="assets/templates/images/blog-3.jpg" class="img-responsive"
-                                                                          alt="HTML5 Bootstrap Template by colorlib.com"></a>
-                                <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i
-                                                    class="icon-bubble3"></i> 4</small></span>
-                                    <h3><a href="blog.html">Make website from scratch</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                                        large language ocean.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 animate-box">
-                            <p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i
-                                            class="icon-reload"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="colorlib-contact" data-section="contact">
                 <div class="colorlib-narrow-content">
                     <div class="row">
@@ -608,8 +550,7 @@ description:
                                     <i class="icon-globe-outline"></i>
                                 </div>
                                 <div class="colorlib-text">
-                                    <p><a href="#"><span class="__cf_email__"
-                                                         data-cfemail="2d44434b426d4942404c4443034e4240">[email&#160;protected]</span></a>
+                                    <p><a href="mailto:rozvora.max@gmail.com"><span>rozvora.max@gmail.com</span></a>
                                     </p>
                                 </div>
                             </div>
@@ -619,7 +560,7 @@ description:
                                     <i class="icon-map"></i>
                                 </div>
                                 <div class="colorlib-text">
-                                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                                    <p>Vinnitsa, Ukraine</p>
                                 </div>
                             </div>
                             <div class="colorlib-feature colorlib-feature-sm animate-box"
@@ -628,7 +569,7 @@ description:
                                     <i class="icon-phone"></i>
                                 </div>
                                 <div class="colorlib-text">
-                                    <p><a href="tel://">+123 456 7890</a></p>
+                                    <p><a href="tel:098276777">098276777</a></p>
                                 </div>
                             </div>
                         </div>
@@ -636,18 +577,57 @@ description:
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
                                      data-animate-effect="fadeInRight">
-                                    <form action="#">
+                                    [!FormLister?
+                                    &formid=`basic`
+                                    &controller=`Form`
+                                    &rules=`{
+                                    "name":{
+                                    "required":"This field is required"
+                                    },
+                                    "email":{
+                                    "required":"This field is required",
+                                    "email":"Email field is required"
+                                    },
+                                    "message":{
+                                    "required":"This field is required",
+                                    "minLength":{
+                                    "params":20,
+                                    "message":"Message field is required"
+                                    }
+                                    }
+                                    }`
+                                    &errorClass=` has-error`
+                                    &requiredClass=` is-invalid`
+                                    &subject=`Contact form`
+                                    &messagesOuterTpl=`@CODE:
+                                    <div class="alert alert-danger" role="alert">[+messages+]</div>
+                                    `
+                                    &errorTpl=`@CODE:<span class="help-block">[+message+]</span>`
+                                    &to=`[(emailsender)]`
+                                    &subject=`My personal portfolio Message form`
+                                    &reportTpl=`@CODE:
+                                    <p>[%feedback_report_title%]</p>
+                                    <p>[%name%] [+name.value+]</p>
+                                    <p>[%email_title%]: <a href="mailto:[+email.value+]">[+email.value+]</a></p>
+                                    <p>[%message_title%]: [+message:strip_tags:nl2br+]</p>
+                                    `
+                                    &successTpl=`@CODE:
+                                    <div class="alert alert-success text-center">[%feedback_send%]</div>
+                                    `
+                                    &formTpl=`@CODE:
+                                    <form method="post">
+                                        <input type="hidden" name="formid" value="basic">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Name">
+                                            <input type="text" name="name" class="form-control" placeholder="Name">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Email">
+                                            <input type="email" name="email" class="form-control" placeholder="Email">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Subject">
+                                            <input type="text" name="subject" class="form-control" placeholder="Subject">
                                         </div>
                                         <div class="form-group">
-                                            <textarea name="" id="message" cols="30" rows="7" class="form-control"
+                                            <textarea name="message" id="message" cols="30" rows="7" class="form-control"
                                                       placeholder="Message"></textarea>
                                         </div>
                                         <div class="form-group">
@@ -655,6 +635,7 @@ description:
                                                    value="Send Message">
                                         </div>
                                     </form>
+                                    `!]
                                 </div>
                             </div>
                         </div>
