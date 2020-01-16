@@ -178,20 +178,7 @@ $(document).ready(function () {
         $('.sticky-parent').css('height', h);
         $("#sticky_item").stick_in_parent();
     };
-    var owlCrouselFeatureSlide = function () {
-        $('.owl-carousel').owlCarousel({
-            animateOut: 'fadeOut',
-            animateIn: 'fadeIn',
-            autoplay: true,
-            loop: true,
-            margin: 0,
-            nav: true,
-            dots: false,
-            autoHeight: true,
-            items: 1,
-            navText: ["<i class='icon-arrow-left3 owl-direction'></i>", "<i class='icon-arrow-right3 owl-direction'></i>"]
-        })
-    };
+
 
         fullHeight();
         counter();
@@ -202,7 +189,7 @@ $(document).ready(function () {
         navigationSection();
         mobileMenuOutsideClick();
         // sliderMain();
-        stickyFunction();
-        owlCrouselFeatureSlide();
+        // stickyFunction();
+        // owlCrouselFeatureSlide();
 });
 
