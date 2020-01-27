@@ -65,7 +65,7 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
            aria-expanded="false" aria-controls="navbar"><i></i></a>
         <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
             <div class="text-center">
-                <div class="author-img" style="background-image: url(assets/templates/images/about.jpg);"></div>
+                <div class="author-img" style="background-image: url(assets/templates/images/1.jpg);"></div>
                 <h1 id="colorlib-logo"><a href="#">Max Rozvora</a></h1>
                 <span class="position"><a href="#">Front End Developer</a></span>
             </div>
@@ -93,7 +93,7 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
         </aside>
         <div id="colorlib-main">
             <section data-section="home">
-                <div class="home" style="background-image: url(assets/templates/images/img_bg_1.jpg);">
+                <div class="home" style="background-image: url(assets/templates/images/header.jpg);">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12">
@@ -101,10 +101,10 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
                                         <h1>Hi! I\'m Max</h1>
                                         <h2>Front End Developer</h2>
                                             <a href="https://docs.google.com/document/d/1XUw2hxDU7YYkHQTI8GwNzaOTFd2__wem39MfbkdPkt0/edit?usp=sharing" class="btn btn-primary btn-learn">
-                                                Download CV <i class="icon-download4"></i>
+                                                Download CV
                                             </a>
                                         <a href="#work" class="btn btn-primary btn-learn">
-                                            View protfolio <i class="icon-download4"></i>
+                                            View portfolio
                                         </a>
                                     </div>
                             </div>
@@ -348,20 +348,16 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
                             <div class="timeline-centered">
                                 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                     <div class="timeline-entry-inner">
-                                        <div class="timeline-icon color-1">
-                                            <i class="icon-pen2"></i>
-                                        </div>
+                                        <div class="timeline-icon color-1"></div>
                                         <div class="timeline-label">
-                                            <h2>Front End Developer <span>208-2019</span></h2>
+                                            <h2>Front End Developer <span>2018-2019</span></h2>
                                             <p>Develop and support different online store</p>
                                         </div>
                                     </div>
                                 </article>
                                 <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
                                     <div class="timeline-entry-inner">
-                                        <div class="timeline-icon color-2">
-                                            <i class="icon-pen2"></i>
-                                        </div>
+                                        <div class="timeline-icon color-2"></div>
                                         <div class="timeline-label">
                                             <h2><a href="#">Front End Developer</a>
                                                 <span>2019-2020</span></h2>
