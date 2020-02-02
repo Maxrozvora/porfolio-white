@@ -27,7 +27,7 @@ description:sample header scripts
 
 <link rel="stylesheet" href="/assets/templates/css/bootstrap.css">
 
-<link rel="stylesheet" href="/assets/templates/css/style.css">
+<link rel="stylesheet" href="/assets/templates/css/style.min.css">
 
 <script src="/assets/templates/js/modernizr-2.6.2.min.js"></script>
 

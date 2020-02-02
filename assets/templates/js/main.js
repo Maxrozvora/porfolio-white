@@ -183,7 +183,7 @@ $(document).ready(function () {
         fullHeight();
         counter();
         // counterWayPoint();
-        contentWayPoint();
+        // contentWayPoint();
         burgerMenu();
         clickMenu();
         navigationSection();
