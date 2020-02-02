@@ -405,16 +405,16 @@ description:
                                     &to=`[(emailsender)]`
                                     &subject=`My personal portfolio Message form`
                                     &reportTpl=`@CODE:
-                                    <p>[%feedback_report_title%]</p>
-                                    <p>[%name%] [+name.value+]</p>
-                                    <p>[%email_title%]: <a href="mailto:[+email.value+]">[+email.value+]</a></p>
-                                    <p>[%message_title%]: [+message:strip_tags:nl2br+]</p>
+                                    <p>Message text:</p>
+                                    <p>Name: [+name.value+]</p>
+                                    <p>Email: <a href="mailto:[+email.value+]">[+email.value+]</a></p>
+                                    <p>Message: [+message:strip_tags:nl2br+]</p>
                                     `
                                     &successTpl=`@CODE:
-                                    <div class="alert alert-success text-center">[%feedback_send%]</div>
+                                    <div class="alert alert-success text-center">Thank your for your message. Your message has been send.</div>
                                     `
                                     &formTpl=`@CODE:
-                                    <form method="post">
+                                    <form method="post"  action="[(site_url)]#contact">
                                         <input type="hidden" name="formid" value="basic">
                                         <div class="form-group">
                                             <input type="text" name="name" class="form-control" placeholder="Name">

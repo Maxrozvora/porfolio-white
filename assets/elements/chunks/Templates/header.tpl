@@ -27,12 +27,6 @@ description:sample header scripts
 
 <link rel="stylesheet" href="/assets/templates/css/bootstrap.css">
 
-<link rel="stylesheet" href="/assets/templates/css/flexslider.css">
-
-
-<link rel="stylesheet" href="/assets/templates/css/owl.carousel.min.css">
-<link rel="stylesheet" href="/assets/templates/css/owl.theme.default.min.css">
-
 <link rel="stylesheet" href="/assets/templates/css/style.css">
 
 <script src="/assets/templates/js/modernizr-2.6.2.min.js"></script>
