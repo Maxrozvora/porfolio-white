@@ -396,12 +396,12 @@ description:
                                     }
                                     }`
                                     &errorClass=` has-error`
-                                    &requiredClass=` is-invalid`
+                                    &requiredClass=` has-warning`
                                     &subject=`Contact form`
                                     &messagesOuterTpl=`@CODE:
                                     <div class="alert alert-danger" role="alert">[+messages+]</div>
                                     `
-                                    &errorTpl=`@CODE:<span class="help-block">[+message+]</span>`
+                                    &errorTpl=`@CODE:<span class="text-danger">[+message+]</span>`
                                     &to=`[(emailsender)]`
                                     &subject=`My personal portfolio Message form`
                                     &reportTpl=`@CODE:
@@ -411,25 +411,30 @@ description:
                                     <p>Message: [+message:strip_tags:nl2br+]</p>
                                     `
                                     &successTpl=`@CODE:
-                                    <div class="alert alert-success text-center">Thank your for your message. Your message has been send.</div>
+                                    <div class="alert alert-success text-center">
+                                        Your message has been send.Thank your!
+                                    </div>
                                     `
                                     &formTpl=`@CODE:
                                     <form method="post"  action="[(site_url)]#contact">
                                         <input type="hidden" name="formid" value="basic">
-                                        <div class="form-group">
+                                        <div class="form-group [+name.errorClass+][+name.requiredClass+]">
                                             <input type="text" name="name" class="form-control" placeholder="Name">
+                                            [+name.error+]
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group [+email.errorClass+][+email.requiredClass+]">
                                             <input type="email" name="email" class="form-control" placeholder="Email">
+                                            [+email.error+]
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group [+subject.errorClass+][+subject.requiredClass+]">
                                             <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                            [+subject.error+]
                                         </div>
-                                        <div class="form-group">
-                                            <textarea name="message" id="message" cols="30" rows="7" class="form-control"
-                                                      placeholder="Message"></textarea>
+                                        <div class="form-group [+message.errorClass+][+message.requiredClass+]">
+                                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                                            [+message.error+]
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group [+name.errorClass+][+name.requiredClass+]">
                                             <input type="submit" class="btn btn-primary btn-send-message"
                                                    value="Send Message">
                                         </div>
