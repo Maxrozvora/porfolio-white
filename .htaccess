@@ -19,11 +19,20 @@ RewriteRule .* - [F,L]
 #RewriteCond %{HTTP:SSL} !=1 [NC]
 #RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [L,R=301]
 
+#redirect http to https
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# without www
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^max-rozvora\.com.ua [NC]
+RewriteRule (.*) https://max-rozvora.com.ua/$1 [R=301,L]
+
 # Rewrite domain.com -> www.domain.com -- used with SEO Strict URLs plugin
 #RewriteCond %{HTTP_HOST} !^$
 #RewriteCond %{HTTP_HOST} !^www\. [NC]
 #RewriteCond %{HTTP_HOST} (.+)$
-#RewriteRule ^(.*)$ http://www.%1/$1 [R=permanent,L] . 
+#RewriteRule ^(.*)$ http://www.%1/$1 [R=permanent,L] .
 
 # without www
 #RewriteCond %{HTTP_HOST} .
